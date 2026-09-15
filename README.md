@@ -185,21 +185,21 @@ flowchart TD
 - Scikit-learn
 - Statsmodels
 - Streamlit
-##📦 Installation
-###Clone the repository:
+## 📦 Installation
+### Clone the repository:
 ```Bash
 git clone https://github.com/sudeshna52/FerryTicket.git
 ```
 
-##Move into the project directory:
+### Move into the project directory:
 ```Bash
 cd FerryTicket 
 ```
-###Install the required dependencies:
+### Install the required dependencies:
 ```Bash
 pip install -r requirements.txt
 ```
-###▶️ Run the Streamlit Application
+### ▶️ Run the Streamlit Application
 Run:
 `Bash
 python -m streamlit run app.py
@@ -209,7 +209,7 @@ python -m streamlit run app.py
 `http://localhost:8501
 `
 
-###☁️ Deployment
+### ☁️ Deployment
 `The Streamlit dashboard can be deployed using Streamlit Community Cloud.
 Deployment configuration:
 Repository: sudeshna52/FerryTicket
