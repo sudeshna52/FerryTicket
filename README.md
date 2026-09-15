@@ -160,34 +160,24 @@ Users can select:
 30 Minutes
 1 Hour
 2 Hours
+```
 
+## Project Workflow
 
-##Project workflow
+```mermaid
+flowchart TD
+    A[Raw Ferry Ticket Data] --> B[Data Preparation]
+    B --> C[Time-Series Preparation]
+    C --> D[Train / Test Strategy]
+    D --> E[Baseline Models]
+    E --> F[Machine Learning Models]
+    F --> G[ARIMA Forecasting]
+    G --> H[Model Comparison]
+    H --> I[Forecast Uncertainty Analysis]
+    I --> J[Streamlit Dashboard]
+```
 
-
-Raw Ferry Ticket Data
-        ↓
-Data Preparation
-        ↓
-Time-Series Preparation
-        ↓
-Train / Test Strategy
-        ↓
-Baseline Models
-        ↓
-Machine Learning Models
-        ↓
-ARIMA Forecasting
-        ↓
-Model Comparison
-        ↓
-Forecast Uncertainty Analysis
-        ↓
-Best Model Selection
-        ↓
-Streamlit Dashboard
-
-### Technologies Used
+## Technologies Used
 Python
 Pandas
 NumPy
@@ -195,42 +185,35 @@ Matplotlib
 Scikit-learn
 Statsmodels
 Streamlit
-###📦 Installation
-Clone the repository:
-
-Bash
-
+##📦 Installation
+###Clone the repository:
+```Bash
 git clone https://github.com/sudeshna52/FerryTicket.git
-Move into the project directory:
+```
 
-Bash
-
-cd FerryTicket
-Install the required dependencies:
-
-Bash
-
+##Move into the project directory:
+```Bash
+cd FerryTicket 
+```
+###Install the required dependencies:
+```Bash
 pip install -r requirements.txt
-▶️ Run the Streamlit Application
+```
+##▶️ Run the Streamlit Application
 Run:
-
-Bash
-
+`Bash
 python -m streamlit run app.py
-The application will open in the browser at:
+`
 
+## The application will open in the browser at:
+`http://localhost:8501
+`
 
-http://localhost:8501
-☁️ Deployment
-The Streamlit dashboard can be deployed using Streamlit Community Cloud.
-
+##☁️ Deployment
+`The Streamlit dashboard can be deployed using Streamlit Community Cloud.
 Deployment configuration:
-
-
 Repository: sudeshna52/FerryTicket
 Branch: main
 Main file: app.py
-The dependencies are specified in:
-
-
-requirements.txt
+The dependencies are specified in: requirements.txt
+`
