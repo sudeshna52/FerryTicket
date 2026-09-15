@@ -178,13 +178,13 @@ flowchart TD
 ```
 
 ## Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Scikit-learn
-Statsmodels
-Streamlit
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Statsmodels
+- Streamlit
 ##📦 Installation
 ###Clone the repository:
 ```Bash
@@ -199,17 +199,17 @@ cd FerryTicket
 ```Bash
 pip install -r requirements.txt
 ```
-##▶️ Run the Streamlit Application
+###▶️ Run the Streamlit Application
 Run:
 `Bash
 python -m streamlit run app.py
 `
 
-## The application will open in the browser at:
+### The application will open in the browser at:
 `http://localhost:8501
 `
 
-##☁️ Deployment
+###☁️ Deployment
 `The Streamlit dashboard can be deployed using Streamlit Community Cloud.
 Deployment configuration:
 Repository: sudeshna52/FerryTicket
