@@ -1,5 +1,7 @@
 # ⛴️ Short-Term Ferry Ticket Demand Forecasting
+## 🚀 Live Demo
 
+[Open the Ferry Ticket Demand Forecasting Dashboard](https://sudeshna52-ferryticket-app-vnokgz.streamlit.app/)
 A predictive decision-support system for forecasting short-term Toronto Island ferry ticket demand using statistical and machine learning models.
 
 The project compares multiple forecasting approaches across different forecast horizons and presents the results through an interactive Streamlit dashboard.
@@ -153,14 +155,14 @@ The dashboard provides:
 
 Users can select:
 
-text
+```text
 15 Minutes
 30 Minutes
 1 Hour
 2 Hours
 
 
-###Project workflow
+##Project workflow
 
 
 Raw Ferry Ticket Data
