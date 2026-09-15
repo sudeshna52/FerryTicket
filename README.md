@@ -201,19 +201,20 @@ pip install -r requirements.txt
 ```
 ### ▶️ Run the Streamlit Application
 Run:
-`Bash
+```Bash
 python -m streamlit run app.py
-`
+```
 
 ### The application will open in the browser at:
-`http://localhost:8501
-`
+```http://localhost:8501
+```
 
 ### ☁️ Deployment
-`The Streamlit dashboard can be deployed using Streamlit Community Cloud.
+The Streamlit dashboard can be deployed using Streamlit Community Cloud.
 Deployment configuration:
+```
 Repository: sudeshna52/FerryTicket
 Branch: main
 Main file: app.py
 The dependencies are specified in: requirements.txt
-`
+```
